@@ -35,8 +35,7 @@ export const projects: Project[] = [
     title: "University Library Management System",
     src: "/images/lms-cover.png",
     href: "https://lms-university.vercel.app/",
-    description:
-      "A library management system for a university that allows students to borrow and return books, and for librarians to manage the library.",
+    descriptionKey: "Projects.universityLmsDesc",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Neon Database"],
   },
   {
@@ -44,9 +43,15 @@ export const projects: Project[] = [
     src: "/images/coop-bot-cover.png",
     darkSrc: "/images/coop-bot-cover-dark.png",
     href: "https://coop-bot-eight.vercel.app/",
-    description:
-      "A bot that allows students to obtain information about the coop mode in College La Cité.",
+    descriptionKey: "Projects.coopBotDesc",
     stack: ["Python", "React", "Google Sheets", "TypeScript"],
+  },
+  {
+    title: "Library Management System",
+    src: "/images/lms-desktop-cover.png",
+    href: "https://github.com/AKameni1/Arthur_Jayson_Ilan_UA2",
+    descriptionKey: "Projects.desktopLmsDesc",
+    stack: ["C#", "ASP.NET", "SQLite", "Entity Framework"],
   },
 ] as const;
 
@@ -56,15 +61,15 @@ export const socialLinks: SocialLinks[] = [
     icon: React.createElement(IconBrandGithub),
   },
   {
-    href: "https://www.linkedin.com/in/arthur-kameni-b30000250/",
+    href: "https://www.linkedin.com/in/arthur-kameni-0a8ba4291",
     icon: React.createElement(IconBrandLinkedin),
   },
   {
-    href: "https://www.instagram.com/arthur.kameni/",
+    href: "https://www.instagram.com/arthur_coder1/",
     icon: React.createElement(IconBrandInstagram),
   },
   {
-    href: "https://www.x.com/arthur.kameni.549",
+    href: "https://x.com/Arthur233013647",
     icon: React.createElement(IconBrandX),
   },
 ];

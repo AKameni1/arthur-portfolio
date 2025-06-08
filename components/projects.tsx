@@ -3,8 +3,15 @@
 import { motion } from "framer-motion";
 import Project from "./project";
 import { projects } from "@/constants";
+import { cn } from "@/lib/utils";
 
-export default function Projects() {
+export default function Projects({
+  numberOfProjects = 3,
+  className,
+}: Readonly<{
+  numberOfProjects?: number;
+  className?: string;
+}>) {
   return (
     <motion.div
       initial="hidden"
@@ -16,9 +23,9 @@ export default function Projects() {
           },
         },
       }}
-      className="flex gap-4"
+      className={cn("flex gap-4", className)}
     >
-      {projects.map((project, index) => (
+      {projects.slice(0, numberOfProjects).map((project) => (
         <motion.div
           key={project.title}
           variants={{

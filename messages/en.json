@@ -20,5 +20,35 @@
   "MobileMenu": {
     "close": "Close menu",
     "open": "Open menu"
-  }
+  },
+  "AnimatedRoles": [
+    "Programmer",
+    "Web Developer",
+    "Mobile Developer",
+    "Programmer-Analyst",
+    "IT Technician"
+  ],
+  "Description": {
+    "short": "I'm a passionate full-stack developer creating innovative, user-centric applications for web, mobile, and desktop platforms, blending technical expertise with creative design.",
+    "details": "I'm a recent graduate from La Cité Collégiale's Computer Programming program (2023-2025), specializing in full-stack development for web, mobile, and desktop applications. I thrive on building seamless, efficient, and modern solutions that enhance user experiences."
+  },
+  "ViewMyProjects": "View My Projects",
+  "ContactMe": {
+    "title": "Contact Me",
+    "description": "Please contact me directly at arthur.kamenitchualeu@gmail.com or through this form.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Submit",
+    "success": "Email sent successfully!",
+    "error": "Email sent failed!"
+  },
+  "Projects": {
+    "universityLmsDesc": "A library management system for a university that allows students to borrow and return books, and for librarians to manage the library.",
+    "coopBotDesc": "A bot that allows students to obtain information about the coop mode in College La Cité.",
+    "desktopLmsDesc": "A desktop application for managing a library: managing books, members, loans/returns, and generating reports."
+  },
+  "RecentProjects": "Recent Projects",
+  "AboutMe": "About Me",
+  "SendDirectEmail": "Please contact me directly at <email>arthur.kamenitchualeu@gmail.com</email> or through this form."
 }

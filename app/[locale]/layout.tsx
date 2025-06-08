@@ -9,6 +9,7 @@ import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ScrollToTop } from "@/components/scroll-to-top";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = Inter({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -46,9 +47,12 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Header />
-            {children}
+            <main className="mx-auto mt-10 max-w-5xl px-8 md:mt-20">
+              {children}
+            </main>
             <Footer />
             <ScrollToTop />
+            <Toaster richColors closeButton />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

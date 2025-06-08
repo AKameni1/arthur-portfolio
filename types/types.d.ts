@@ -17,7 +17,7 @@ type Project = {
   src: string;
   darkSrc?: string;
   href: string;
-  description: string;
+  descriptionKey: string;
   stack: string[];
 };
 

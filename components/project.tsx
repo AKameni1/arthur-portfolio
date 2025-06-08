@@ -6,11 +6,13 @@ import Image from "next/image";
 import StackItem from "./stack-item";
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
+import { useTranslations } from "next-intl";
 
 export default function Project({
   project = defaultProjects[0],
 }: Readonly<{ project?: Project }>) {
   const { theme } = useTheme();
+  const t = useTranslations();
   const imageSrc =
     theme === "dark" && project.darkSrc ? project.darkSrc : project.src;
 
@@ -51,11 +53,8 @@ export default function Project({
             <h2 className="mt-2 font-medium tracking-tight text-neutral-700 dark:text-neutral-200">
               {project.title}
             </h2>
-            <p
-              className="mt-2 line-clamp-3 max-w-[17rem] text-sm text-neutral-500 dark:text-neutral-400"
-              title={project.description}
-            >
-              {project.description}
+            <p className="mt-2 line-clamp-3 max-w-[17rem] text-sm text-neutral-500 transition-all duration-300 group-hover:line-clamp-none dark:text-neutral-400">
+              {t(project.descriptionKey)}
             </p>
           </div>
 

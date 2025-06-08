@@ -82,7 +82,7 @@
 
 .dark {
   --color-primary: var(--color-neutral-100);
-  --color-secondary: var(--color-neutral-400);
+  --color-secondary: var(--color-neutral-300);
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);

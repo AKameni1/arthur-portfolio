@@ -19,5 +19,35 @@
   "MobileMenu": {
     "close": "Fermer le menu",
     "open": "Ouvrir le menu"
-  }
+  },
+  "AnimatedRoles": [
+    "Programmeur",
+    "Développeur Web",
+    "Développeur Mobile",
+    "Analyste-Programmeur",
+    "Technicien Informatique"
+  ],
+  "Description": {
+    "short": "Je suis un développeur full-stack passionné par la création d'applications innovantes et centrées sur l'utilisateur pour les plateformes web, mobile et desktop, combinant expertise technique avec une conception créative.",
+    "details": "Je suis un diplômé de La Cité Collégiale en programmation informatique (2023-2025), spécialisé dans le développement full-stack pour les applications web, mobile et desktop. Je suis passionné par la création de solutions fluides, efficaces et modernes qui améliorent l'expérience utilisateur."
+  },
+  "ViewMyProjects": "Voir mes projets",
+  "ContactMe": {
+    "title": "Contactez-moi",
+    "description": "Veuillez me contacter directement à arthur.kamenitchualeu@gmail.com ou via ce formulaire.",
+    "name": "Votre Nom",
+    "email": "Votre Email",
+    "message": "Votre Message",
+    "send": "Envoyer",
+    "success": "Email envoyé avec succès !",
+    "error": "Email envoyé échoué !"
+  },
+  "Projects": {
+    "universityLmsDesc": "Un système de gestion de bibliothèque universitaire permettant aux étudiants d’emprunter et de rendre des livres, et aux bibliothécaires de gérer la bibliothèque.",
+    "coopBotDesc": "Un bot qui permet aux étudiants d’obtenir des informations sur le mode coop du Collège La Cité.",
+    "desktopLmsDesc": "Application bureau pour la gestion d’une bibliothèque : gestion des livres, des membres, des prêts/retours et génération de rapports."
+  },
+  "RecentProjects": "Projets récents",
+  "AboutMe": "À propos de moi",
+  "SendDirectEmail": "Veuillez me contacter directement à <email>arthur.kamenitchualeu@gmail.com</email> ou via ce formulaire."
 }
