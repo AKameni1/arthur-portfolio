@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "greeting": "Bonjour!",
+    "description": "Je suis un ingénieur logiciel passionné par la création de systèmes évolutifs et efficaces. Actuellement, je travaille en tant qu'ingénieur logiciel chez Google."
+  },
+  "Navigation": {
+    "about": "À propos",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "contact": "Contact",
+    "switchLanguage": "Changer de langue",
+    "scrollToTop": "Faites défiler en haut",
+    "toggleTheme": "Thème de basculement"
+  },
+  "CV": "Télécharger CV",
+  "Confidential": {
+    "description": "Tous droits réservés"
+  },
+  "MobileMenu": {
+    "close": "Fermer le menu",
+    "open": "Ouvrir le menu"
+  }
+}

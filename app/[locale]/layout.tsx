@@ -1,0 +1,57 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "../globals.css";
+import { cn } from "@/lib/utils";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
+import { ThemeProvider } from "@/components/theme/theme-provider";
+import { ScrollToTop } from "@/components/scroll-to-top";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+
+const inter = Inter({
+  weight: ["400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Portfolio website",
+  description: "A portfolio website for a software developer.",
+};
+
+export default async function RootLayout({
+  children,
+  params,
+}: Readonly<{
+  children: React.ReactNode;
+  params: Promise<{
+    locale: string;
+  }>;
+}>) {
+  // Ensure that the incoming `locale` is valid
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  return (
+    <html lang={locale} suppressHydrationWarning>
+      <body
+        className={cn(
+          inter.className,
+          "bg-neutral-100 antialiased dark:bg-neutral-700",
+        )}
+      >
+        <NextIntlClientProvider>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <Header />
+            {children}
+            <Footer />
+            <ScrollToTop />
+          </ThemeProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}

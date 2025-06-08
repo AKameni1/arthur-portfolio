@@ -1,0 +1,24 @@
+{
+  "HomePage": {
+    "title": "Welcome to the Home Page",
+    "greeting": "Hello, there!",
+    "description": "I'm a software engineer with a passion for building scalable and efficient systems. I'm currently working as a software engineer at Google."
+  },
+  "Navigation": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "switchLanguage": "Switch language",
+    "scrollToTop": "Scroll to top",
+    "toggleTheme": "Toggle Theme"
+  },
+  "CV": "Download CV",
+  "Confidential": {
+    "description": "All rights reserved"
+  },
+  "MobileMenu": {
+    "close": "Close menu",
+    "open": "Open menu"
+  }
+}
