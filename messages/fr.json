@@ -49,5 +49,36 @@
   },
   "RecentProjects": "Projets récents",
   "AboutMe": "À propos de moi",
-  "SendDirectEmail": "Veuillez me contacter directement à <email>arthur.kamenitchualeu@gmail.com</email> ou via ce formulaire."
+  "SendDirectEmail": "Veuillez me contacter directement à <email>arthur.kamenitchualeu@gmail.com</email> ou via ce formulaire.",
+  "About": {
+    "title": "Hey! Je suis <name>Arthur Kameni</name> et je suis un développeur full stack junior.",
+    "description": {
+      "first": "Je m'appelle Arthur Kameni, un développeur passionné qui a récemment complété sa formation en programmation informatique au Collège La Cité à Ottawa, le 20 avril 2025. Guidé par la patience et la persévérance, je m'épanouis dans la création d'interfaces web épurées et attrayantes qui allient esthétique et fonctionnalité. Mon mantra ? \"Une fois la solution à un problème trouvée, elle devient une évidence.\" Cette philosophie m'inspire à transformer des défis complexes en solutions intuitives, que ce soit pour des applications web, mobiles ou desktop, toujours avec une touche de créativité.",
+      "third": "En dehors du code, je trouve mon équilibre dans les échecs et le gaming, des passions qui affûtent ma réflexion stratégique et ma capacité à anticiper. Mon objectif est de concevoir des expériences utilisateur qui captivent et simplifient la vie des utilisateurs, tout en collaborant avec des équipes innovantes. Que vous soyez un recruteur à la recherche d’un développeur motivé ou un membre de la communauté créative souhaitant explorer des idées audacieuses, je suis enthousiaste à l’idée de contribuer et d’apprendre à vos côtés.",
+      "fourth": "Voici un timeline de ce que j'ai fait"
+    }
+  },
+  "Experience": {
+    "title": "Mon expérience",
+    "items": [
+      {
+        "title": "Diplômé en programmation informatique",
+        "location": "Ottawa, ON, Canada",
+        "description": "J'ai obtenu un diplôme de deux ans en programmation informatique à La Cité Collégiale en avril 2025, maîtrisant Python, JavaScript et le développement full-stack. Durant mes études, j'ai réalisé une application de gestion de bibliothèque avec React, Next.js et PostgreSQL.",
+        "date": "2023 - 2025"
+      },
+      {
+        "title": "Développeur bénévole",
+        "location": "Ottawa, ON, Canada",
+        "description": "Depuis mai 2025, je fais du bénévolat en tant que développeur, contribuant à des projets qui renforcent mon expertise en interfaces propres et intuitives. J'utilise React, Tailwind CSS et Node.js, avec un accent sur la collaboration et l'innovation.",
+        "date": "2025 - présent"
+      },
+      {
+        "title": "Développeur Full-Stack (Ouvert aux opportunités)",
+        "location": "Ottawa, ON, Canada",
+        "description": "Développeur full-stack passionné, compétent en React, Next.js, TypeScript, Tailwind CSS, Prisma et PostgreSQL. J'aime concevoir des interfaces intuitives et souhaite rejoindre une équipe dynamique pour créer des applications à impact. Ouvert aux postes à temps plein.",
+        "date": "2025 - présent"
+      }
+    ]
+  }
 }

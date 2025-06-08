@@ -4,6 +4,7 @@ import {
   IconBrandLinkedin,
   IconBrandX,
 } from "@tabler/icons-react";
+import { BriefcaseBusiness, Code, GraduationCap } from "lucide-react";
 import React from "react";
 
 export const navigationLinks: NavigationLinks[] = [
@@ -73,3 +74,18 @@ export const socialLinks: SocialLinks[] = [
     icon: React.createElement(IconBrandX),
   },
 ];
+
+export const experiencesData: Experience[] = [
+  {
+    id: "graduated",
+    icon: React.createElement(GraduationCap),
+  },
+  {
+    id: "volunteer",
+    icon: React.createElement(BriefcaseBusiness),
+  },
+  {
+    id: "fullstack",
+    icon: React.createElement(Code),
+  },
+] as const;

@@ -49,7 +49,7 @@ export default function Footer() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-400 transition-colors duration-300 hover:text-zinc-500 dark:text-zinc-500 dark:hover:text-zinc-400"
+              className="text-neutral-500 transition-colors duration-300 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300"
             >
               {icon}
             </a>

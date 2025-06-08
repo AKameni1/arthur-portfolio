@@ -31,3 +31,9 @@ type SocialLinks = {
   href: string;
   icon: React.ReactElement;
 };
+
+type Experience = {
+  id: string;
+
+  icon: React.ReactElement;
+};
