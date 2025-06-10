@@ -109,7 +109,7 @@ export default function Home() {
                 },
               },
             }}
-            className="flex gap-4"
+            className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"
           >
             {projects.slice(0, 3).map((project) => (
               <motion.div

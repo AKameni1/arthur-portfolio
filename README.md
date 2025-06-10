@@ -6,7 +6,7 @@ Bienvenue sur le portfolio de **Arthur Kameni**, développeur full-stack passion
 
 ## 🚀 Aperçu
 
-- **Framework** : Next.js 14 (App Router)
+- **Framework** : Next.js 15 (App Router)
 - **Langages** : TypeScript, React
 - **SEO** : Métadonnées dynamiques, Open Graph, Twitter Cards, Sitemap, robots.txt
 - **Multilingue** : Français 🇫🇷 & Anglais 🇬🇧 (i18n)

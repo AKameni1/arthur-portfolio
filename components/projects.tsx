@@ -7,7 +7,6 @@ import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
 export default function Projects({
-  numberOfProjects = 3,
   className,
 }: Readonly<{
   numberOfProjects?: number;
@@ -38,9 +37,12 @@ export default function Projects({
             },
           },
         }}
-        className={cn("flex gap-4 mt-10", className)}
+        className={cn(
+          "mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3",
+          className,
+        )}
       >
-        {projects.slice(0, numberOfProjects).map((project) => (
+        {projects.map((project) => (
           <motion.div
             key={project.title}
             variants={{
