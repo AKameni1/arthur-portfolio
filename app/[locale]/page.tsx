@@ -9,7 +9,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://arthur-portfolio.vercel.app";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://arthurkameni.com";
   const canonicalUrl = locale === "en" ? `${baseUrl}/en` : `${baseUrl}/fr`;
 
   if (locale === "en") {

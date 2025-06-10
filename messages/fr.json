@@ -123,5 +123,8 @@
     "backHome": "Retour à l'accueil",
     "showDetails": "Afficher les détails techniques",
     "hideDetails": "Masquer les détails techniques"
+  },
+  "social": {
+    "ariaLabel": "Suivez-moi sur"
   }
 }

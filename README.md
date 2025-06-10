@@ -74,7 +74,7 @@ Bienvenue sur le portfolio de **Arthur Kameni**, développeur full-stack passion
 - **Déploiement**
   - Compatible Vercel, Netlify, Render, etc.
   - Variables d'environnement à définir :
-    - `NEXT_PUBLIC_BASE_URL` (ex: https://arthur-portfolio.vercel.app)
+    - `NEXT_PUBLIC_BASE_URL` (ex: https://arthurkameni.com)
 
 ---
 
@@ -83,7 +83,6 @@ Bienvenue sur le portfolio de **Arthur Kameni**, développeur full-stack passion
 ```
 ├── app/                # Pages Next.js (App Router)
 │   ├── [locale]/       # Pages multilingues (fr/en)
-│   ├── not-found.tsx   # Page 404 personnalisée
 │   ├── sitemap.ts      # Sitemap dynamique
 │   ├── robots.ts       # robots.txt dynamique
 │   └── manifest.ts     # Manifest PWA

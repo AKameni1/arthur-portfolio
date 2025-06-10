@@ -204,7 +204,7 @@ export function generateMetadataEn(
   canonicalUrl?: string,
 ): Metadata {
   const baseUrl =
-    process.env.NEXT_PUBLIC_BASE_URL ?? "https://arthur-portfolio.vercel.app";
+    process.env.NEXT_PUBLIC_BASE_URL ?? "https://arthurkameni.com";
   const canonical = canonicalUrl ?? baseUrl;
 
   return {
