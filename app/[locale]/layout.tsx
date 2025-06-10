@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -64,6 +65,7 @@ export default async function RootLayout({
             <Footer />
             <ScrollToTop />
             <Toaster richColors closeButton />
+            <Analytics />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
