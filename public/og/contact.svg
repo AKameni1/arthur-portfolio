@@ -1,0 +1,44 @@
+
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dégradé linéaire pour le fond -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Fond avec dégradé -->
+  <rect width="100%" height="100%" fill="url(#grad)"/>
+  <!-- Bordure subtile -->
+  <rect x="10" y="10" width="1180" height="610" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.2"/>
+  <!-- Motif minimaliste (inspiré des échecs) -->
+  <g opacity="0.1">
+    <rect x="50" y="50" width="100" height="100" fill="#ffffff"/>
+    <rect x="150" y="150" width="100" height="100" fill="#ffffff"/>
+    <rect x="1050" y="50" width="100" height="100" fill="#ffffff"/>
+    <rect x="950" y="150" width="100" height="100" fill="#ffffff"/>
+  </g>
+  <!-- Titre avec ombre portée -->
+  <text x="50%" y="35%" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="48" font-weight="bold" filter="url(#shadow)">
+    Contact
+  </text>
+  <!-- Sous-titre avec ombre portée -->
+  <text x="50%" y="50%" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" opacity="0.9">
+    Discutons de vos projets
+  </text>
+  <!-- Filtre pour ombre portée -->
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
+  

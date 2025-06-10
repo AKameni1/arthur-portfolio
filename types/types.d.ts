@@ -43,3 +43,33 @@ type SkillsCategory = {
   icon: React.ReactElement;
   color: string;
 };
+
+type SEOConfig = {
+  title: string;
+  description: string;
+  keywords: string[];
+  openGraph: {
+    title: string;
+    description: string;
+    type:
+      | "website"
+      | "article"
+      | "book"
+      | "profile"
+      | "music.song"
+      | "music.album"
+      | "music.playlist"
+      | "music.radio_station"
+      | "video.movie"
+      | "video.episode"
+      | "video.tv_show"
+      | "video.other";
+    images: string[];
+  };
+  twitter: {
+    card: string;
+    title: string;
+    description: string;
+    images: string[];
+  };
+};

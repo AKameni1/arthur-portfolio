@@ -50,6 +50,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-500 transition-colors duration-300 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300"
+              aria-label={`${t("social.ariaLabel")} ${href}`}
             >
               {icon}
             </a>

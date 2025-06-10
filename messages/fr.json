@@ -114,5 +114,14 @@
         "date": "2025 - présent"
       }
     ]
+  },
+  "Error": {
+    "notFoundTitle": "Page non trouvée",
+    "notFoundMessage": "La page que vous cherchez n'existe pas. Veuillez vérifier l'URL ou retourner à la page d'accueil.",
+    "serverErrorTitle": "Erreur du serveur",
+    "serverErrorMessage": "Une erreur inattendue est survenue. Veuillez contacter <email>arthur.kamenitchualeu@gmail.com</email> si le problème persiste.",
+    "backHome": "Retour à l'accueil",
+    "showDetails": "Afficher les détails techniques",
+    "hideDetails": "Masquer les détails techniques"
   }
 }

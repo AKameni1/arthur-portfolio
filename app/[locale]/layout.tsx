@@ -10,16 +10,27 @@ import { ScrollToTop } from "@/components/scroll-to-top";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Toaster } from "@/components/ui/sonner";
+import { defaultSEO, generateMetadata as generateMetadataFr } from "@/lib/seo";
+import { defaultSEOEn, generateMetadataEn } from "@/lib/seo-en";
 
 const inter = Inter({
   weight: ["400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Portfolio website",
-  description: "A portfolio website for a software developer.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  if (locale === "en") {
+    return generateMetadataEn(defaultSEOEn);
+  }
+
+  return generateMetadataFr(defaultSEO);
+}
 
 export default async function RootLayout({
   children,

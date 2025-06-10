@@ -115,5 +115,17 @@
         "date": "2025 - present"
       }
     ]
+  },
+  "Error": {
+    "notFoundTitle": "Page not found",
+    "notFoundMessage": "The page you are looking for does not exist. Please check the URL or return to the home page.",
+    "serverErrorTitle": "Server error",
+    "serverErrorMessage": "An unexpected error occurred. Please contact <email>arthur.kamenitchualeu@gmail.com</email> if the problem persists.",
+    "backHome": "Back to home",
+    "showDetails": "Show technical details",
+    "hideDetails": "Hide technical details"
+  },
+  "social": {
+    "ariaLabel": "Follow me on"
   }
 }

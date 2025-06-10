@@ -70,6 +70,7 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-500 transition-colors duration-300 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300"
+                aria-label={`${t("social.ariaLabel")} ${href}`}
               >
                 {icon}
               </a>
@@ -119,7 +120,7 @@ export default function About() {
                 <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
                   {catText.skills.map((skill, skillIndex) => (
                     <motion.div
-                      key={skillIndex}
+                      key={skillIndex + 1}
                       whileHover={{
                         scale: 1.05,
                         boxShadow: "0 4px 24px 0 rgba(0,0,0,0.08)",
