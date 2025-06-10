@@ -37,3 +37,9 @@ type Experience = {
 
   icon: React.ReactElement;
 };
+
+type SkillsCategory = {
+  id: string;
+  icon: React.ReactElement;
+  color: string;
+};

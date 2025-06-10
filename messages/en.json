@@ -44,6 +44,8 @@
     "error": "Email sent failed!"
   },
   "Projects": {
+    "title": "I've been building a <lot>lot of things</lot>",
+    "description": "Come explore the fruits of my labor, from small experiments to full-blown web, mobile and desktop applications, each project showcases my love for coding and design.",
     "universityLmsDesc": "A library management system for a university that allows students to borrow and return books, and for librarians to manage the library.",
     "coopBotDesc": "A bot that allows students to obtain information about the coop mode in College La Cité.",
     "desktopLmsDesc": "A desktop application for managing a library: managing books, members, loans/returns, and generating reports."
@@ -57,7 +59,39 @@
       "first": "My name is Arthur Kameni, a dedicated developer who graduated from the Computer Programming program at La Cité Collégiale in Ottawa on April 20, 2025. Driven by patience and perseverance, I thrive on crafting clean, engaging, and user-friendly web interfaces that blend aesthetics with functionality. I live by the belief that \"once the solution to a problem is found, it becomes obvious.\" This mindset fuels my passion for turning complex challenges into intuitive solutions, whether for web, mobile, or desktop applications, always with a creative edge.",
       "third": "Beyond coding, I find inspiration in chess and gaming, which sharpen my strategic thinking and ability to anticipate outcomes. My goal is to design user experiences that captivate and simplify, while collaborating with innovative teams. Whether you're a recruiter seeking a motivated developer or a member of the creative community eager to explore bold ideas, I’m excited to contribute, learn, and grow alongside you.",
       "fourth": "Here's a timeline of what I've been upto"
-    }
+    },
+    "skillsTitle": "My Skills",
+    "skillsCategories": [
+      { "category": "Design", "skills": ["Figma", "Tailwind CSS"] },
+      {
+        "category": "Front-end",
+        "skills": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "TypeScript",
+          "SwiftUI",
+          "Android"
+        ]
+      },
+      {
+        "category": "Back-end",
+        "skills": [
+          "Node.js",
+          "Express",
+          "NestJS",
+          "C#",
+          "Java",
+          "PostgreSQL",
+          "REST API",
+          "GraphQL"
+        ]
+      },
+      {
+        "category": "Other",
+        "skills": ["Git & GitHub", "Vercel", "Render", "Docker"]
+      }
+    ]
   },
   "Experience": {
     "title": "My Experience",

@@ -4,7 +4,14 @@ import {
   IconBrandLinkedin,
   IconBrandX,
 } from "@tabler/icons-react";
-import { BriefcaseBusiness, Code, GraduationCap } from "lucide-react";
+import {
+  BriefcaseBusiness,
+  Code,
+  GraduationCap,
+  Heart,
+  Palette,
+  Zap,
+} from "lucide-react";
 import React from "react";
 
 export const navigationLinks: NavigationLinks[] = [
@@ -89,3 +96,26 @@ export const experiencesData: Experience[] = [
     icon: React.createElement(Code),
   },
 ] as const;
+
+export const skillsCategories: SkillsCategory[] = [
+  {
+    id: "design",
+    icon: React.createElement(Palette, { className: "h-5 w-5" }),
+    color: "from-pink-500 to-rose-500",
+  },
+  {
+    id: "frontend",
+    icon: React.createElement(Code, { className: "h-5 w-5" }),
+    color: "from-blue-500 to-cyan-500",
+  },
+  {
+    id: "backend",
+    icon: React.createElement(Zap, { className: "h-5 w-5" }),
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    id: "other",
+    icon: React.createElement(Heart, { className: "h-5 w-5" }),
+    color: "from-purple-500 to-indigo-500",
+  },
+];

@@ -5,7 +5,8 @@ import AnimatedTextCycle from "./ui/animated-text-cycle";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
-import Projects from "./projects";
+import { projects } from "@/constants";
+import Project from "./project";
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20, filter: "blur(10px)" },
@@ -98,7 +99,37 @@ export default function Home() {
           <h3 className="mb-6 text-2xl font-bold tracking-tighter text-neutral-800 md:text-3xl dark:text-white">
             {t("RecentProjects")}
           </h3>
-          <Projects className="not-md:flex-wrap" />
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              visible: {
+                transition: {
+                  staggerChildren: 0.3,
+                },
+              },
+            }}
+            className="flex gap-4"
+          >
+            {projects.slice(0, 3).map((project) => (
+              <motion.div
+                key={project.title}
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                      duration: 0.5,
+                      easeInOut: [0.22, 1, 0.36, 1],
+                    },
+                  },
+                }}
+              >
+                <Project project={project} />
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </motion.section>
     </motion.div>
