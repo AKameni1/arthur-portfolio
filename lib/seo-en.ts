@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 
 export const defaultSEOEn: SEOConfig = {
-  title: "Arthur Kameni - Full Stack Developer",
+  title: "Arthur Kameni - Software Developer",
   description:
-    "Passionate full-stack developer specializing in React, Next.js, TypeScript, and Node.js. Creator of innovative web, mobile, and desktop applications.",
+    "Passionate software developer specializing in React, Next.js, TypeScript, and Node.js. Creator of innovative web, mobile, and desktop applications.",
   keywords: [
+    "software developer",
     "full-stack developer",
     "React",
     "Next.js",
@@ -18,26 +19,26 @@ export const defaultSEOEn: SEOConfig = {
     "Canada",
   ],
   openGraph: {
-    title: "Arthur Kameni - Full Stack Developer",
+    title: "Arthur Kameni - Software Developer",
     description:
-      "Passionate full-stack developer specializing in React, Next.js, TypeScript, and Node.js. Creator of innovative web, mobile, and desktop applications.",
+      "Passionate software developer specializing in React, Next.js, TypeScript, and Node.js. Creator of innovative web, mobile, and desktop applications.",
     type: "website",
     images: ["/og/home.svg", "/arthur.webp"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arthur Kameni - Full Stack Developer",
+    title: "Arthur Kameni - Software Developer",
     description:
-      "Passionate full-stack developer specializing in React, Next.js, TypeScript, and Node.js.",
+      "Passionate software developer specializing in React, Next.js, TypeScript, and Node.js.",
     images: ["/og/home.svg", "/arthur.webp"],
   },
 };
 
 export const seoConfigsEn: Record<string, SEOConfig> = {
   home: {
-    title: "Arthur Kameni - Full Stack Developer | Portfolio",
+    title: "Arthur Kameni - Software Developer | Portfolio",
     description:
-      "Passionate full-stack developer creating innovative web, mobile, and desktop applications. Specialized in React, Next.js, TypeScript, and Node.js.",
+      "Passionate software developer creating innovative web, mobile, and desktop applications. Specialized in React, Next.js, TypeScript, and Node.js.",
     keywords: [
       "full-stack developer",
       "portfolio",
@@ -49,22 +50,22 @@ export const seoConfigsEn: Record<string, SEOConfig> = {
       "Ottawa",
     ],
     openGraph: {
-      title: "Arthur Kameni - Full Stack Developer | Portfolio",
+      title: "Arthur Kameni - Software Developer | Portfolio",
       description:
-        "Passionate full-stack developer creating innovative web, mobile, and desktop applications.",
+        "Passionate software developer creating innovative web, mobile, and desktop applications.",
       type: "website",
       images: ["/og/home.svg", "/arthur.webp"],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Arthur Kameni - Full Stack Developer | Portfolio",
+      title: "Arthur Kameni - Software Developer | Portfolio",
       description:
-        "Passionate full-stack developer creating innovative web, mobile, and desktop applications.",
+        "Passionate software developer creating innovative web, mobile, and desktop applications.",
       images: ["/og/home.svg", "/arthur.webp"],
     },
   },
   about: {
-    title: "About - Arthur Kameni | Full Stack Developer",
+    title: "About - Arthur Kameni | Software Developer",
     description:
       "Discover my journey, skills, and passion for development. Graduate from La Cité Collégiale, I create innovative solutions.",
     keywords: [
@@ -73,18 +74,18 @@ export const seoConfigsEn: Record<string, SEOConfig> = {
       "journey",
       "education",
       "La Cité Collégiale",
-      "full-stack developer",
+      "software developer",
       "Arthur Kameni",
     ],
     openGraph: {
-      title: "About - Arthur Kameni | Full Stack Developer",
+      title: "About - Arthur Kameni | Software Developer",
       description: "Discover my journey, skills, and passion for development.",
       type: "profile",
       images: ["/og/about.svg", "/arthur.webp"],
     },
     twitter: {
       card: "summary_large_image",
-      title: "About - Arthur Kameni | Full Stack Developer",
+      title: "About - Arthur Kameni | Software Developer",
       description: "Discover my journey, skills, and passion for development.",
       images: ["/og/about.svg", "/arthur.webp"],
     },
@@ -150,7 +151,7 @@ export const seoConfigsEn: Record<string, SEOConfig> = {
     },
   },
   contact: {
-    title: "Contact - Arthur Kameni | Full Stack Developer",
+    title: "Contact - Arthur Kameni | Software Developer",
     description:
       "Contact me to discuss your development projects. Available for collaboration and employment opportunities.",
     keywords: [
@@ -163,7 +164,7 @@ export const seoConfigsEn: Record<string, SEOConfig> = {
       "Ottawa",
     ],
     openGraph: {
-      title: "Contact - Arthur Kameni | Full Stack Developer",
+      title: "Contact - Arthur Kameni | Software Developer",
       description:
         "Contact me to discuss your development projects. Available for collaboration and employment opportunities.",
       type: "website",
@@ -171,7 +172,7 @@ export const seoConfigsEn: Record<string, SEOConfig> = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Contact - Arthur Kameni | Full Stack Developer",
+      title: "Contact - Arthur Kameni | Software Developer",
       description: "Contact me to discuss your development projects.",
       images: ["/og/contact.svg", "/arthur.webp"],
     },
